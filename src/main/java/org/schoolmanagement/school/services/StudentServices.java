@@ -3,7 +3,9 @@ package org.schoolmanagement.school.services;
 import org.schoolmanagement.school.entities.Student;
 
 public interface StudentServices {
-    void promote (Student student);
+    void promoteStudent (Student student);
 
-    void expelStudent(Student student);
+    String expelStudent(Student student);
+
+    String takeCourse(Student student);
 }
